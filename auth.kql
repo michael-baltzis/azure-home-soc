@@ -1,0 +1,7 @@
+SecurityEvent
+| where TimeGenerated > ago(2h)
+| extend TimeGenerated_EST = datetime_utc_to_local(TimeGenerated, "America/New_York")
+| where EventID == 4624
+| project TimeGenerated_EST, Computer, EventID, Activity, Account, EventData
+| order by TimeGenerated_EST desc
+| take 50
