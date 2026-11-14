@@ -14,7 +14,7 @@ The DCR defines the Windows Security Events collected from the virtual machine a
 
 The configuration shows one connected resource and one data source, establishing the foundation for centralized security log collection.
 
-![Data Collection Rule](screenshots/04-data-collection-rule.png)
+![Data Collection Rule](https://github.com/michael-baltzis/azure-home-soc/blob/main/screenshots/DCR.png) 
 
 ### 1.2 — Deploying the Azure Monitor Agent (AMA)
 
