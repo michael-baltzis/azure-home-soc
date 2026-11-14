@@ -24,7 +24,7 @@ The Azure Monitor Agent collects Windows Security Events according to the associ
 
 Confirmed that the agent was running version `1.46.1.0`, with a provisioning status of **Succeeded** and handler status of **Ready**.
 
-![Azure Monitor Agent](screenshots/04-azure-monitor-agent.png)
+![Azure Monitor Agent](https://github.com/michael-baltzis/azure-home-soc/blob/main/screenshots/AMA.png) 
 
 ### 1.3 — Inspecting Windows Security Events
 
@@ -39,7 +39,7 @@ Observed several security event types, including:
 
 This confirmed that the Windows Server VM was generating security audit events that could be collected for centralized analysis.
 
-![Windows Event Viewer](screenshots/04-windows-event-viewer.png)
+![Windows Event Viewer](https://github.com/michael-baltzis/azure-home-soc/blob/main/screenshots/Windows-security-events-vm.png)
 
 ### 1.4 — Querying Windows Security Events in Microsoft Sentinel
 
@@ -51,7 +51,7 @@ The query returned authentication activity associated with the local administrat
 
 This demonstrated successful ingestion of Windows authentication events and the ability to investigate individual security records through Microsoft Sentinel.
 
-![Security Event Analysis](screenshots/04-security-event-analysis.png)
+![Security Event Analysis](https://github.com/michael-baltzis/azure-home-soc/blob/main/screenshots/kql%20query%20for%20admin%20auth.png)
 
 ### 1.5 — Verifying Remote Desktop Authentication
 
@@ -66,7 +66,7 @@ The query returned successful remote logon events for `SOC-WIN1\azureuser`, conf
 
 This validation demonstrated the ability to isolate a specific authentication method from broader Windows Security Event data.
 
-![RDP Login Verification](screenshots/04-rdp-login-verification.png)
+![RDP Login Verification](https://github.com/michael-baltzis/azure-home-soc/blob/main/screenshots/kql%20query-rdp.png)
 
 ### Step 1 Outcome
 
