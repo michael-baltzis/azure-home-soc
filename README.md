@@ -4,7 +4,7 @@
 
 ### Objective
 
-Configure centralized security log collection from an Azure-hosted Windows Server virtual machine (`SOC-WIN1`) into Microsoft Sentinel. Validate the collection pipeline using Kusto Query Language (KQL) and investigate Windows authentication events.
+Configure centralized security log collection from an Azure-hosted Windows Server virtual machine SOC-WIN1 into Microsoft Sentinel. Validate the collection pipeline using Kusto Query Language (KQL) and investigate Windows authentication events.
 
 ### 1.1 — Configuring the Data Collection Rule (DCR)
 
